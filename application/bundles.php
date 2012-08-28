@@ -34,8 +34,6 @@
 */
 
 return array(
-
-	'docs' => array('handles' => 'docs'),
 	'bob',
 	'date' => array('auto' => true, 'autoloads' => array(
 			'map' => array('Date' => '(:bundle)/libraries/date.php')
