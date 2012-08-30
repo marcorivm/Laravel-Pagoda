@@ -5,6 +5,8 @@ global:
 #db1:
 #  name: laravel-db
 #  type: mysql
+cache1:
+  type: memcached
 web1:
   name: laravel-bundles
   shared_writable_dirs:

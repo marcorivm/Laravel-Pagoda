@@ -1,7 +1,4 @@
 <?php
-/**
-TODO: Configure memcached
-/**/
 return array(
 
 	/*
@@ -21,7 +18,7 @@ return array(
 	|
 	*/
 
-	//'driver' => 'memcached',
+	'driver' => 'memcached',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -37,11 +34,11 @@ return array(
 	|
 	*/
 
-	/**
+	/**/
 	
 	'memcached' => array(
 
-		array('host' => '127.0.0.1', 'port' => 11211, 'weight' => 100),
+		array('host' => $_SERVER["CACHE1_HOST"], 'port' => $_SERVER["CACHE1_PORT"], 'weight' => 100),
 
 	),	
 	

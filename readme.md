@@ -2,6 +2,8 @@ This is a Fork of the original [Laravel](http://laravel.com) Quickstart for [Pag
 
 It's fully prepared to run on Pagodabox using a sqlite database, or after editing the Boxfile a mysql database. 
 
+Working with memcached.
+
 You can change any configuration needed for the Pagoda enviroment on the application/config/production folder.
 
 Also this Quickstart comes with some bundles intalled for faster develompent:
