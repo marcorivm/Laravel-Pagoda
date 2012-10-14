@@ -1,6 +1,6 @@
 This is a Fork of the original [Laravel](http://laravel.com) Quickstart for [Pagodabox](https://pagodabox.com/)
 
-It's fully prepared to run on Pagodabox using a sqlite database, or after editing the Boxfile a mysql database. 
+It's fully prepared to run on Pagodabox using a sqlite database, or after editing the Boxfile a mysql database.
 
 Working with memcached as cache and session driver (Remember to use php artisan key:generate).
 
@@ -38,4 +38,4 @@ Based on the Boxfile method from: http://forums.laravel.com/viewtopic.php?id=890
 
 ## Features
 
-- Laravel 3.2.8
+- Laravel 3.2.10
