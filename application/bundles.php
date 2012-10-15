@@ -14,7 +14,7 @@
 | Laravel the location of the bundle's root directory, as well as the
 | root URI the bundle responds to.
 |
-| For example, if you have an "admin" bundle located in "bundles/admin" 
+| For example, if you have an "admin" bundle located in "bundles/admin"
 | that you want to handle requests with URIs that begin with "admin",
 | simply add it to the array like this:
 |
@@ -37,6 +37,6 @@ return array(
 	'bob',
 	'date' => array('auto' => true, 'autoloads' => array(
 			'map' => array('Date' => '(:bundle)/libraries/date.php')
-		)),	
+		)),
 	'bootstrapper' => array('auto' => true),
 );

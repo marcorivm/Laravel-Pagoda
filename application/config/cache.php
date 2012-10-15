@@ -29,7 +29,7 @@ return array(
 	| This key will be prepended to item keys stored using Memcached and APC
 	| to prevent collisions with other applications on the server. Since the
 	| memory based stores could be shared by other applications, we need to
-	| be polite and use a prefix to uniquely identifier our items.
+	| be polite and use a prefix to uniquely identify our items.
 	|
 	*/
 
@@ -66,6 +66,6 @@ return array(
 
 		array('host' => '127.0.0.1', 'port' => 11211, 'weight' => 100),
 
-	),	
+	),
 
 );

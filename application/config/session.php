@@ -23,7 +23,7 @@ return array(
 	| Session Database
 	|--------------------------------------------------------------------------
 	|
-	| The database table on which the session should be stored. It probably
+	| The database table in which the session should be stored. It probably
 	| goes without saying that this option only matters if you are using
 	| the super slick database session driver.
 	|
@@ -38,7 +38,7 @@ return array(
 	|
 	| Some session drivers require the manual clean-up of expired sessions.
 	| This option specifies the probability of session garbage collection
-	| occuring for any given request to the application. 
+	| occuring for any given request to the application.
 	|
 	| For example, the default value states that garbage collection has a
 	| 2% chance of occuring for any given request to the application.
